@@ -1,0 +1,17 @@
+[GENERATED OBJECT FILE]
+b__hello.o
+[PROJECT FILES]
+/workspaces/2024/default.gpr
+20241123094831 0327c6c2ecaf1108362f52c22a4fed16
+[BOUND OBJECT FILES]
+/workspaces/2024/obj/hello.o
+[GENERATED SOURCE FILES]
+b__hello.ads
+b__hello.adb
+b__hello.ali
+[RESULTING OPTIONS]
+-L/workspaces/2024/obj/
+-L/workspaces/2024/obj/
+-L/usr/lib/gcc/aarch64-linux-gnu/12/adalib/
+-shared
+-lgnat-12
