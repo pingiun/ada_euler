@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "ada",
+			"command": "gprbuild",
+			"args": [
+				"${command:ada.gprProjectArgs}",
+				"src/euler4.adb",
+				"-cargs:ada",
+				"-gnatef"
+			],
+			"problemMatcher": [
+				"$ada"
+			],
+			"group": "build",
+			"label": "ada: Build main - src/euler4.adb"
+		}
+	]
+}

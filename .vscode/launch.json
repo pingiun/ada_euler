@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cppdbg",
+            "name": "Ada: Debug main - src/euler4.adb",
+            "request": "launch",
+            "targetArchitecture": "arm64",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/obj/euler4",
+            "stopAtEntry": false,
+            "externalConsole": false,
+            "args": [],
+            "MIMode": "gdb",
+            "preLaunchTask": "ada: Build main - src/euler4.adb",
+            "setupCommands": [
+                {
+                    "description": "Catch all Ada exceptions",
+                    "text": "catch exception",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}

@@ -10,5 +10,5 @@ begin
          Sum := Sum + I;
       end if;
    end loop;
-   Ada.Text_IO.Put_Line("Answer = " & Sum'Image);
+   Ada.Text_IO.Put_Line("Answer =" & Sum'Image);
 end Euler1;
